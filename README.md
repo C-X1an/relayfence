@@ -37,7 +37,7 @@ CONNECT payloads are opaque. An allowed endpoint can relay data elsewhere; Relay
 | Policy, admission and revocation | `internal/relayfence/policy.go`, `store.go` |
 | Shared byte reservations | `internal/relayfence/budget.go` |
 | Local administration and audit | `internal/relayfence/admin.go`, `audit.go` |
-| Real-socket tests and experiments | `internal/relayfence/*_test.go`, `tests/`, `cmd/relaybench/` |
+| Real-socket tests and experiments | `internal/relayfence/*_test.go`, `cmd/relayfence/*_test.go`, `cmd/relaybench/` |
 
 Read the [architecture](ARCHITECTURE.md), [API contract](API_SPEC.md), [threat model](THREAT_MODEL.md), [limitations](LIMITATIONS.md), [operations guide](DEPLOYMENT_AND_OPERATIONS.md) and [benchmark method](BENCHMARKS.md). See [CONTRIBUTING.md](CONTRIBUTING.md) for development and [SECURITY.md](SECURITY.md) for vulnerability reporting.
 
