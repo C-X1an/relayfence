@@ -28,6 +28,8 @@ jobs:
         run: make mutation fuzz
       - name: Run actual demo and benchmark smoke
         run: make demo benchmark-smoke
+      - name: Reproduce from a fresh committed clone
+        run: make clean-verify
       - name: Capture binary inventory
         run: python3 scripts/sbom.py
       - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
