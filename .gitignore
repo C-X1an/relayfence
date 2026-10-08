@@ -1,0 +1,13 @@
+.state/
+.tools/
+bin/
+verification/
+*.pem
+*.key
+.env
+__pycache__/
+*.pyc
+coverage.out
+private_research/
+*.docx
+*.pdf

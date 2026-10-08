@@ -1,0 +1,32 @@
+[Unit]
+Description=RelayFence experimental identity-bound egress gateway
+After=network-online.target
+Wants=network-online.target
+StartLimitBurst=3
+StartLimitIntervalSec=60
+
+[Service]
+Type=simple
+User=relayfence
+Group=relayfence
+WorkingDirectory=/var/lib/relayfence
+ExecStart=/usr/local/bin/relayfence serve --listen 127.0.0.1:8443 --cert /var/lib/relayfence/server.crt --key /var/lib/relayfence/server.key --ca /var/lib/relayfence/client-ca.crt --policy /var/lib/relayfence/policy.json --audit /var/lib/relayfence/audit.jsonl --admin /var/lib/relayfence/admin.sock
+Restart=on-failure
+RestartSec=10
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/relayfence
+CapabilityBoundingSet=
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictSUIDSGID=true
+LockPersonality=true
+MemoryMax=512M
+TasksMax=256
+LimitNOFILE=4096
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target
