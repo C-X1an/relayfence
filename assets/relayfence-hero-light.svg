@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" width="1200" height="400" viewBox="0 0 1200 400">
+<title id="title">RelayFence — identity-bound network egress for autonomous workloads</title>
+<desc id="desc">A technical cover image showing an authenticated workload, policy gateway and approved upstream, with a disallowed route stopped.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FBFF"/><stop offset="1" stop-color="#EAF4FC"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#86D8E9" stop-opacity=".22"/><stop offset="1" stop-color="#86D8E9" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="27" height="27" patternUnits="userSpaceOnUse"><path d="M27 0H0V27" fill="none" stroke="#A8C2DD" stroke-opacity=".19" stroke-width="1"/></pattern>
+ <linearGradient id="accent"><stop stop-color="#27B8EB"/><stop offset=".55" stop-color="#38E0D0"/><stop offset="1" stop-color="#8BE8AE"/></linearGradient>
+</defs>
+<rect width="1200" height="400" rx="22" fill="url(#bg)"/>
+<rect x="628" y="24" width="550" height="350" rx="17" fill="url(#grid)"/>
+<circle cx="934" cy="185" r="270" fill="url(#aura)"/>
+<path d="M613 52V349" stroke="#8CB0C8" stroke-opacity=".4" stroke-width="1"/>
+<path d="M49 376H1150" stroke="#8CB0C8" stroke-opacity=".38" stroke-width="1"/>
+<path d="M49 376H320" stroke="url(#accent)" stroke-width="3"/>
+<!-- emblem: three guarded signal rails -->
+<rect x="56" y="57" width="61" height="61" rx="17" fill="#DCF3F7" stroke="#087E91" stroke-width="1.5"/>
+<path d="M75 90V76H98V90L86.5 102.5Z" fill="none" stroke="#087E91" stroke-width="3.3" stroke-linejoin="round"/>
+<path d="M79 90H94" stroke="#087E91" stroke-width="3" stroke-linecap="round"/>
+<circle cx="75" cy="90" r="3" fill="#102239"/><circle cx="98" cy="90" r="3" fill="#102239"/>
+<text x="133" y="81" fill="#087E91" font-size="13.5" font-weight="800" letter-spacing="2.4">NETWORK POLICY / SYSTEMS ENGINEERING</text>
+<text x="133" y="108" fill="#475E78" font-size="13" font-weight="500" letter-spacing="1.2">OPEN SOURCE  ·  EXPERIMENTAL</text>
+<text x="56" y="213" fill="#102239" font-size="82" font-weight="800" letter-spacing="-3.4">RelayFence</text>
+<text x="58" y="262" fill="#102239" font-size="25.5" font-weight="600" letter-spacing="-.25">Bound the route. Preserve the evidence.</text>
+<text x="58" y="291" fill="#475E78" font-size="16.7">Identity-bound egress for autonomous workloads.</text>
+<rect x="58" y="326" width="124" height="34" rx="17" fill="#E6F4FA" stroke="#BAD9E7"/><text x="120" y="348" fill="#1B4D61" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1.05">mTLS IDENTITY</text><rect x="193" y="326" width="139" height="34" rx="17" fill="#E6F4FA" stroke="#BAD9E7"/><text x="262.5" y="348" fill="#1B4D61" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1.05">LIVE REVOCATION</text><rect x="343" y="326" width="155" height="34" rx="17" fill="#E6F4FA" stroke="#BAD9E7"/><text x="420.5" y="348" fill="#1B4D61" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1.05">BOUNDED RELAY</text>
+<!-- observation rings -->
+<circle cx="934" cy="204" r="182" fill="none" stroke="#8CB0C8" stroke-opacity=".23" stroke-dasharray="2 12"/><circle cx="934" cy="204" r="151" fill="none" stroke="#8CB0C8" stroke-opacity=".17"/>
+<!-- connection edges -->
+<path d="M787 210H835" fill="none" stroke="#087E91" stroke-width="3" stroke-linecap="round"/><path d="M827 205L835 210L827 215" fill="none" stroke="#087E91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M984 210H1030" fill="none" stroke="#087E91" stroke-width="3" stroke-linecap="round"/><path d="M1022 205L1030 210L1022 215" fill="none" stroke="#087E91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="652" y="149" width="135" height="137" rx="18" fill="#FFFFFF" stroke="#C6D7E9" stroke-width="1.5"/><text x="719.5" y="240" fill="#102239" font-size="13.5" font-weight="750" text-anchor="middle" letter-spacing="1.2">WORKLOAD</text><text x="719.5" y="260" fill="#536C83" font-size="12" font-weight="450" text-anchor="middle">verified identity</text>
+<rect x="835" y="130" width="149" height="156" rx="18" fill="#FFFFFF" stroke="#087E91" stroke-width="1.5"/><text x="909.5" y="221" fill="#102239" font-size="13.5" font-weight="750" text-anchor="middle" letter-spacing="1.2">POLICY GATE</text><text x="909.5" y="241" fill="#536C83" font-size="12" font-weight="450" text-anchor="middle">revision checked</text>
+<rect x="1030" y="149" width="135" height="137" rx="18" fill="#FFFFFF" stroke="#C6D7E9" stroke-width="1.5"/><text x="1097.5" y="240" fill="#102239" font-size="13.5" font-weight="750" text-anchor="middle" letter-spacing="1.2">UPSTREAM</text><text x="1097.5" y="260" fill="#536C83" font-size="12" font-weight="450" text-anchor="middle">approved IP</text>
+<!-- node pictograms -->
+<circle cx="719.5" cy="193" r="22" fill="#DCF3F7" stroke="#8CB0C8"/><path d="M707 194l10-10 9 9 6-5" fill="none" stroke="#087E91" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M910 158l20-8 20 8v16c0 17-13 27-20 30-7-3-20-13-20-30v-16z" fill="#DCF3F7" stroke="#087E91" stroke-width="2.1"/><path d="M921 175l7 7 12-15" fill="none" stroke="#087E91" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1097.5" cy="193" r="22" fill="#DCF3F7" stroke="#8CB0C8"/><path d="M1086 192l9 9 15-18" fill="none" stroke="#087E91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- blocked outbound branch -->
+<path d="M910 286V320H1048" fill="none" stroke="#E67D8C" stroke-opacity=".86" stroke-dasharray="5 7" stroke-width="1.8"/>
+<circle cx="1061" cy="320" r="12" fill="#7B2639"/><path d="M1057 316l8 8m0-8l-8 8" stroke="#FFE8EB" stroke-width="2" stroke-linecap="round"/>
+<text x="1079" y="325" fill="#475E78" font-size="12.2" font-weight="650" letter-spacing=".7">DENIED</text>
+</svg>
