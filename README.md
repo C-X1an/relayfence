@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/C-X1an/relayfence/actions/workflows/ci.yml"><img alt="GitHub Actions verification status" src="https://github.com/C-X1an/relayfence/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="go.mod"><img alt="Go 1.27.1" src="https://img.shields.io/badge/Go-1.27.1-00ADD8?style=flat-square&logo=go&logoColor=white"></a>
+  <a href="go.mod"><img alt="Go 1.27.2" src="https://img.shields.io/badge/Go-1.27.2-00ADD8?style=flat-square&logo=go&logoColor=white"></a>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-54657E?style=flat-square"></a>
   <img alt="Project status: experimental" src="https://img.shields.io/badge/status-experimental-CE8652?style=flat-square">
 </p>
@@ -41,7 +41,7 @@ No LLM account, managed cloud service, database or third-party runtime dependenc
 
 ## Quickstart
 
-**Prerequisites:** Linux (or WSL2/Linux VM on Windows), **Go 1.27.1**, Python 3.11+, Git and `make`. Race detection also needs a C compiler.
+**Prerequisites:** Linux (or WSL2/Linux VM on Windows), **Go 1.27.2**, Python 3.11+, Git and `make`. Race detection also needs a C compiler.
 
 ```bash
 git clone https://github.com/C-X1an/relayfence.git

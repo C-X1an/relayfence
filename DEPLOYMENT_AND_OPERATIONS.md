@@ -2,7 +2,7 @@
 
 ## Local development
 
-Use Linux, Go 1.27.1, Python 3.11+, Git and make; race tests need a C compiler. Use a supported Go security patch for deployment and review the CI pin when upgrading. Windows users should use WSL2/Linux for the Unix administration socket. Core verification/demo requires no external service credentials.
+Use Linux, Go 1.27.2, Python 3.11+, Git and make; race tests need a C compiler. Use a supported Go security patch for deployment and review the CI pin when upgrading. Windows users should use WSL2/Linux for the Unix administration socket. Core verification/demo requires no external service credentials.
 
 ```sh
 make bootstrap
